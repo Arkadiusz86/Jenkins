@@ -1,7 +1,8 @@
 # Jenkins Pipeline - Automatyczna instalacja i testowanie Nginx
 
 ## Opis
-Ten pipeline w Jenkins automatyzuje proces aktualizacji systemu, wdrożenia Nginx w kontenerze Docker oraz testowania jego działania.
+Ten pipeline w Jenkins został stworzony na potrzeby nauki dla moich kursantów z [kursu Homelab](https://asdevops.pl/homelab) 
+Proces automatyzuje aktualizację systemu, wdrożenia Nginx w kontenerze Docker oraz testowania jego działania.
 
 ## Wymagania
 - Jenkins
@@ -64,5 +65,5 @@ pipeline {
 - **Testowanie**: Uruchamia kontener, testuje dostępność serwera, a następnie go usuwa.
 
 ## Autor
-[Arkadiusz Siczek](https://github.com/ArkadiuszSiczek)
+[Arkadiusz Siczek](https://www.linkedin.com/in/arkadiusz-siczek/)
 
